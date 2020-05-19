@@ -1,0 +1,26 @@
+/*
+    Métodos HTTP: 
+**
+    GET: Buscar uma informação do back-end
+    POST: Criar uma informação no back-end
+    PUT: Alterar uma informação no back-end
+    DELETE: Apagar uma informação no back-end
+
+*/
+//
+//
+/*
+    Tipos de parâmetros:
+**
+    Query Params: Parâmetros nomeados enviados na rota após o simbolo de "?" (Filtros, paginação)
+    Route Params: Parâmetros utilizados para identificar recursos //OBS: lembrar dos :
+    Request Body: Corpo da requisição, utilizado para criar ou alterar recursos
+
+*/
+
+
+/**
+ * Driver: SELECT * FROM users
+ * Query Builder: table('users').select('*').where()
+ * 
+*/
